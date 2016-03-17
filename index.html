@@ -1,20 +1,18 @@
 <!DOCTYPE html>
 <html>
-<!-- HEAD -->
 <head>
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/styles.css" type="text/css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"> </script>
-	<script src="js/bootstrap.js" type"text/javaScript"></script>
 	<script src="js/jukebox_ambient.js" type"text/javaScript"></script>
 </head>
 
-<!-- **********BODY*********** -->
 <body>
 	<p class="too_small">Your device is not supported</p>
 	<div class="col-sm-12 container">
 		<div class="song_icons col-sm-8 col-sm-offset-2 ">
+			<!-- ICONS LEFT COLUMN -->
 			<div class="col-sm-6 large_icons">
 				<div class="glyphicon glyphicon-tint col-sm-12 mq play paused" data-audio="rain"></div>
 				<div class="glyphicon-minus-sign col-sm-6 glyphicon volume-down" data-audio="rain"></div>
@@ -26,6 +24,8 @@
 				<div class="glyphicon-minus-sign col-sm-6 glyphicon volume-down" data-audio="fire"></div>
 				<div class="glyphicon-plus-sign col-sm-6 glyphicon volume-up" data-audio="fire"></div>
 			</div>
+
+			<!-- ICONS RIGHT COLUMN -->
 			<div class="col-sm-6 large_icons">
 				<div class="glyphicon glyphicon-music col-sm-12 play paused" data-audio="tones"></div>
 				<div class="glyphicon-minus-sign col-sm-6 glyphicon volume-down" data-audio="tones"></div>
@@ -38,6 +38,8 @@
 				<div class="glyphicon-plus-sign col-sm-6 glyphicon volume-up" data-audio="storm"></div>
 			</div>
 		</div>
+
+		<!-- CONTROL PANEL -->
 		<div class="footer col-sm-3">
 			<div class="col-sm-2 audio_buttons">
 				<span class="glyphicon glyphicon-play" id="play"></span>
@@ -48,6 +50,4 @@
 		</div>
 	</div>
 </body>
-
-<!-- END DOCUMENT -->
 </html>
